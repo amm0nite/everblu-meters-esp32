@@ -1,0 +1,10 @@
+CC1101         LOLIN_D32
+---------------------------------
+1 (GND)        GND
+2 (VCC)        3V3
+3 (GDO0)       16  (GPIO16)
+4 (CSN)        5   (GPIO5, SS)
+5 (SCK)        18  (GPIO18, SCK)
+6 (MOSI)       23  (GPIO23, MOSI)
+7 (MISO/GDO1)  19  (GPIO19, MISO)
+8 (GDO2)       17  (GPIO17)

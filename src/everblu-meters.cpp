@@ -381,13 +381,13 @@ void setup()
     SerialDebug.begin(115200);
 
     // this resets all the neopixels to an off state
-    strip.Begin();
-    strip.Show();
+    //strip.Begin();
+    //strip.Show();
     delay(100); // Needed to initialize
     DotStar_Clear();
-    DotStar_SetBrightness( MY_RGB_BRIGHTNESS );    
+    //DotStar_SetBrightness( MY_RGB_BRIGHTNESS );    
 
-    Wire.begin(I2C_SDA, I2C_SCL);
+    //Wire.begin(I2C_SDA, I2C_SCL);
 
     // Set hostanme
     uint32_t chipId = 0;
